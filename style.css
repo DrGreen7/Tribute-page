@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+.top-header{
+    background-color:#100720;
+    display: flex;
+   padding-top: 10px;
+   padding-bottom: 10px;
+ 
+}
+.left-heading{
+    
+    color: white;
+    margin-left: 20px;
+    font-size: 25px;
+    font-weight: 500;
+    flex: 1;
+
+}
+.middle-heading{
+    text-align: center;
+    
+    font-size: 40px;
+    color: white;
+    font-weight: 700;
+    flex: 1;
+    margin-left: 300px;
+}
+.right-heading{
+    
+    font-weight: 500;
+    color: white; 
+    flex: 1;
+    padding-left: 400px;
+    padding-right: 0;
+    font-size: 25px;
+    margin-left: 100px;
+    padding-top: 5px;
+}
+.main-page{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color:#FF8C32 ;
+    height: 780px;
+}
+.img-section{
+    padding: 150px;
+}
+.img-card{
+    background-color: white;
+    width: 500px;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); ;
+}
+.juice-img{
+    width: 500px;
+}
+.bio-card{
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 0 ;
+}
+.img-bio-name{
+    font-weight: 700;
+    font-size: 24px;
+}
+.about-section{
+    padding: 150px;
+}
+.about-heading{
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 17px;
+}
+.about-bio{
+    font-size: 22px;
+    line-height: 35px;
+    
+}
